@@ -1,0 +1,12 @@
+name: Logmanage
+main: org.densyakun.logmanage.Logmanage
+version: 0.1.5
+author: Densyakun.
+website: http://densyakuncreate.wiki.fc2.com/
+
+commands:
+   lm_clear:
+      description: ログファイルを削除します。 Delete the log file.
+      usage: /lm_clear
+      permission: lm.clear
+      permission-message: そのコマンドを実行する権限がありません。 You don't have permission.
